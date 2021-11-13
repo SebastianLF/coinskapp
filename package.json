@@ -1,0 +1,23 @@
+{
+  "name": "coinskapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "coinskapp",
+  "author": "adz",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.1.3",
+    "gatsby-plugin-sitemap": "^5.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
