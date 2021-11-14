@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "coinskapp",
+    title: "Coinskapp",
   },
-  plugins: ["gatsby-plugin-sitemap"],
+  plugins: [
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
